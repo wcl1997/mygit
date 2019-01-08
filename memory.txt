@@ -1,0 +1,11 @@
+git init
+git add readme.txt
+git commit -m "-----"
+git status
+git log --pretty=oneline
+git reset --hard HEAD^(~100)
+git reset --hard ba365
+git reflog
+
+git checkout -- readme.txt
+git reset HEAD readme.txt
